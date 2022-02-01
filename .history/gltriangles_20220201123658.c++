@@ -17,9 +17,9 @@ void lineSegment(void)
     glColor3f(0.8, 0.5, 1.0);
     glBegin(GL_TRIANGLES);
     
-    glVertex2i(10, 15);
-    glVertex2i(150, 15);
-    glVertex2i(90, 100);
+    glVertex2i(0, 15);
+    glVertex2i(100, 15);
+    glVertex2i(90, 185);
 
     glEnd();
     glFlush();

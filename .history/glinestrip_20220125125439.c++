@@ -19,7 +19,7 @@ void lineSegment(void)
 	glVertex2i(180, 15);
 	glVertex2i(10, 145);
 	glVertex2i(100, 15);
-	glVertex2i(10, 100);
+	glVertex2i(10, 185);
 	glEnd();
 	glFlush();
 }
