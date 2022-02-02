@@ -4,7 +4,7 @@
 #include <math.h>
 
 void init(void){
-    glClearColor(0.1,0.29,0.2, 0.0);
+    glClearColor(1.0,2.0,0.0, 0.4);
     glMatrixMode(GL_PROJECTION);
     gluOrtho2D(0.0,200.0,0.0,150.0);
 
@@ -17,7 +17,7 @@ void triangleStrip(void) {
     glVertex2i(10, 10);
     glVertex2i(60, 10);
     glVertex2i(30, 100);
-    glColor3f(1.0, 1.0, 1.0);
+    glColor3f(0.0, 0.0, 0.0);
     glVertex2i(60, 10);
     glVertex2i(90, 10);
   
@@ -30,7 +30,7 @@ int main(int argc, char **argv){
     glutInit(&argc, argv);
     glutInitDisplayMode(GLUT_SINGLE | GLUT_RGB);
     glutInitWindowPosition(100, 100);
-    glutInitWindowSize(400,400);
+    glutInitWindowSize(800,900);
     glutCreateWindow("triangleStrip");
     init();
     glutDisplayFunc(triangleStrip);

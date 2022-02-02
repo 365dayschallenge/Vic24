@@ -17,7 +17,7 @@ void triangleStrip(void) {
     glVertex2i(10, 10);
     glVertex2i(60, 10);
     glVertex2i(30, 100);
-    glColor3f(1.0, 1.0, 1.0);
+    glColor3f(0.0, 0.0, 0.0);
     glVertex2i(60, 10);
     glVertex2i(90, 10);
   
